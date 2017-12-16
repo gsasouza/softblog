@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User DELETE => /users/{username} Should delete a specific user 1`] = `Object {}`;
+
+exports[`User GET => /users Should return an array with the users 1`] = `Array []`;
+
+exports[`User GET => /users/{username} Should get a specific user 1`] = `
+Object {
+  "__v": 0,
+  "name": "João",
+  "type": "ADMIN",
+  "username": "JOAOZINHO",
+}
+`;
+
+exports[`User POST => /users Should create a user 1`] = `Object {}`;
+
+exports[`User PUT => /users/{username} Should update a specific user 1`] = `Object {}`;
